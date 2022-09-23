@@ -4,36 +4,55 @@
 
 header {
   background-color: black;
-  color: white
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: grey;
+  margin: 5px 0px 5px 0px;
+}
+
+nav a {
+  margin: 5px 10px 5px 10px;
 }
 
 body {
   background-color: black;
-  color: white
+  color: white;
 }
 
 footer {
   background-color: black;
-  color: white
+  color: white;
   text-align: center;
 }
 
 a {
   text-decoration: none;
   color: white;
-  margin: 15px;
 }
 
-a:hover{color:tomato;
-text-decoration: wavy;
-background-color: orange;
-border-radius: 15px;
-margin: 5px;}
-
-ul{list-style: none;}
-
-.contact img{background-color:white;
-width: 40px;
+a:hover {
+  color: tomato;
+  text-decoration: wavy;
 }
 
-.contact img:hover{width: 50px;}
+ul {
+  list-style: none;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact img {
+  background-color: white;
+  width: 40px;
+}
+
+.contact img:hover {
+  width: 50px;
+}
