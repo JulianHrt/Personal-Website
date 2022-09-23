@@ -3,18 +3,32 @@
 }
 
 header {
-  background-color: lightgray;
+  background-color: black;
+  color: white
 }
 
 body {
-  background-color: floralwhite;
+  background-color: black;
+  color: white
 }
 
 footer {
-  background-color: lightgray;
+  background-color: black;
+  color: white
   text-align: center;
 }
 
 a {
   text-decoration: none;
+  color: white
 }
+
+a:hover{color:tomato;
+text-decoration: wavy;}
+
+ul{list-style: none;}
+
+.contact img{background-color:white;
+width: 40px}
+
+.contact img:hover{width: 50px;}
