@@ -20,15 +20,20 @@ footer {
 
 a {
   text-decoration: none;
-  color: white
+  color: white;
+  margin: 15px;
 }
 
 a:hover{color:tomato;
-text-decoration: wavy;}
+text-decoration: wavy;
+background-color: orange;
+border-radius: 15px;
+margin: 5px;}
 
 ul{list-style: none;}
 
 .contact img{background-color:white;
-width: 40px}
+width: 40px;
+}
 
 .contact img:hover{width: 50px;}
