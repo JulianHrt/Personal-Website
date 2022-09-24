@@ -1,5 +1,26 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 10;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-left: 7%;
+  font-family: "Segoe UI";
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 header {
@@ -9,58 +30,133 @@ header {
   flex-wrap: wrap;
   _position: fixed;
   width: 100%;
-  box-shadow: darkblue 3px 3px 50px;
+  padding: 10px;
+  background-color: #222831;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }
 
 nav {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 50%;
+  width: 70%;
   font-size: large;
   font-weight: bold;
 }
 
 .profil {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: left;
+  border-right: 3px solid #ffd369;
+  padding: 10px;
+  background-color: #393e46;
+  color: white;
+  max-width: 30%;
 }
 
-<!----Ab hier gehts weiter / HTML Basis nochmal prüfen ---! > .profilbild {
-  width: 250px;
-  height: 250px;
-  border: lightcyan;
-  border-radius: 50%;
-}
-a {
-  text-decoration: none;
-  border: 2px solid black;
-  border-radius: 25%;
-  padding: 5px;
+.fotocontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-a:hover {
-  color: tomato;
-  border: 2px solid tomato;
-  background-color: orange;
-  border-radius: 25%;
-  padding: 5px;
+.fotocontainer img {
+  border-radius: 15%;
+  max-width: 90%;
+  max-height: 90%;
+  padding: 10px;
+}
+
+.zitat {
+  font-weight: inherit;
+  font-size: 1.5rem;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 0px 10px 13px -7px #000000;
+}
+
+.dates {
+  padding: 10px;
+  margin: 5px;
+  border-bottom: 1px solid #ffd369;
+  border-top: 1px solid #ffd369;
+}
+
+.dates span {
+  font-weight: bold;
+}
+
+.techstack {
+  padding: 10px;
+  margin: 5px;
+  border-bottom: 1px solid #ffd369;
 }
 
 ul {
   list-style: none;
+  padding: 1.5px;
 }
 
-.contact {
+.description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  max-width: 70%;
+  padding: 10px;
+}
+
+.description article {
+  margin: 5px;
+  padding: 10px;
+
+  border-bottom: 1px solid #ffd369;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+
+.socials img:hover {
+  height: 100px;
+  width: 100px;
+}
+
+footer {
   display: flex;
   justify-content: space-evenly;
+  background-color: #222831;
+  color: white;
+  padding: 10px;
 }
 
-.contact img {
-  background-color: white;
-  width: 40px;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-.contact img:hover {
-  width: 50px;
+nav a {
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #ffd369;
+  border-radius: 25%;
 }

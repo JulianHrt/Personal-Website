@@ -11,7 +11,7 @@
   <body>
     <header>
       <h1 class="headline">Julian Hirt</h1>
-      <nav class="navbar">
+      <nav>
         <a href="#aboutme">About me</a>
         <a href="#skills">Techstack & Skills</a>
         <a href="#goals">Goals</a>
@@ -19,120 +19,116 @@
       </nav>
     </header>
 
-    <section>
+    <main>
       <section class="profil">
-      <article>
-        <img class="profilbild"
-          src="/CSS/images/IMG_6051.jpeg"
-          alt="picture of Julian Hirt"
-        />
-        <p>Try and Error and Learning by Doing are my recipe of success.</p>
-      </article>
-      <article>
-        <p>Name: Julian Hirt</p>
-        <p>Age: 27 years</p>
-        <p>Location: Bad Langensalza, Thuringia, Germany</p>
-      </article>
+        <article class="fotocontainer">
+          <img src="../CSS/images/IMG_6051.jpeg" alt="picture of Julian Hirt" />
+          <p class="zitat">
+            "Try and Error and Learning by Doing are my recipe of success."
+          </p>
+        </article>
+
+        <article class="dates">
+          <p><span>Name: </span>Julian Hirt</p>
+          <p><span>Age: </span>27 years</p>
+          <p><span>Location: </span>Bad Langensalza, Thuringia, Germany</p>
+        </article>
+
+        <article id="skills" class="techstack">
+          <h2>Techstack & Skills</h2>
+          <ul>
+            <li>
+              <img
+                src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+                alt="html5"
+              />
+            </li>
+            <li>
+              <img
+                src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)"
+                alt="VBA"
+              />
+            </li>
+            <li>
+              <img
+                src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+                alt="java"
+              />
+            </li>
+            <li>
+              <img
+                src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"
+                alt="jira"
+              />
+            </li>
+            <li>
+              <img
+                src="https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white"
+                alt="confluence"
+              />
+            </li>
+            <li>
+              <img
+                src="https://img.shields.io/badge/-Design%20Thinking-lightgrey"
+                alt="Design Thinking"
+              />
+            </li>
+            <li>
+              <img
+                src="https://img.shields.io/badge/-Moderation%20%26%20Speaker-green"
+                alt="Moderation & Speaker"
+              />
+            </li>
+          </ul>
+        </article>
       </section>
 
-      <section class="aboutme">
-      <article id="aboutme">
-        <h2>About me</h2>
-        <p>
-          Aloha Guys and welcome to my Personal-Website. Currently i´m learning
-          Web Developement. I´m very interested in Techstuff and highly
-          motivated to learn new things. When i´m not working, i like to explore
-          this beatiful world and have good times with nice people. Do you have
-          any Question? Feel free to ask me. It´s nice to meet you!
-        </p>
-      </article>
-    </section>
-
-
-    <section class="skillsandcv">
-      <article id="skills">
-        <h2>Techstack & Skills</h2>
-        <ul>
-          <li>
-            <img
-              src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
-              alt="html5"
-            />
-          </li>
-          <li>
-            <img
-              src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)"
-              alt="VBA"
-            />
-          </li>
-          <li>
-            <img
-              src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
-              alt="java"
-            />
-          </li>
-          <li>
-            <img
-              src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"
-              alt="jira"
-            />
-          </li>
-          <li>
-            <img
-              src="https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white"
-              alt="confluence"
-            />
-          </li>
-          <li>
-            <img
-              src="https://img.shields.io/badge/-Design%20Thinking-lightgrey"
-              alt="Design Thinking"
-            />
-          </li>
-          <li>
-            <img
-              src="https://img.shields.io/badge/-Moderation%20%26%20Speaker-green"
-              alt="Moderation & Speaker"
-            />
-          </li>
-        </ul>
-      </article>
-    </section>
-
-      <section class="goals">
-      <article id="goals">
-        <h2>My Goals</h2>
-        <p>
-          Become a great Web Developer @neueFische Bootcamp. Learn more and more
-          cool Techstuff and Skill-up.
-        </p>
-      </article>
-    </section>
-
-      <section class="socials">
-        <h2>Contact</h2>
-        <article id="contact" class="contact">
+      <section class="description">
+        <article id="aboutme">
+          <h2>About me</h2>
           <p>
-            <a href="https://instagram.com/julian.hrt"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
-                alt="instagram-icon"
-            /></a>
+            Aloha Guys and welcome to my Personal-Website. Currently i´m
+            learning Web Developement. I´m very interested in Techstuff and
+            highly motivated to learn new things. When i´m not working, i like
+            to explore this beatiful world and have good times with nice people.
+            Do you have any Question? Feel free to ask me. It´s nice to meet
+            you!
           </p>
+        </article>
+
+        <article id="goals">
+          <h2>My Goals</h2>
           <p>
-            <a href="https://github.com/JulianHrt"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png"
-                alt="Github-icon"
-            /></a>
+            Become a great Web Developer @neueFische Bootcamp. Learn more and
+            more cool Techstuff and Skill-up.
           </p>
-          <p>
-            <a href="mailto:julian.hirt94@web.de"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/646/646094.png"
-                alt="Mail-icon"
-            /></a>
-          </p>
+        </article>
+
+        <article id="contact">
+          <h2>Contact</h2>
+          <div class="socials">
+            <p>
+              <a href="https://instagram.com/julian.hrt"
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+                  alt="instagram-icon"
+              /></a>
+            </p>
+            <p>
+              <a href="https://github.com/JulianHrt"
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png"
+                  alt="Github-icon"
+              /></a>
+            </p>
+            <p>
+              <a href="mailto:julian.hirt94@web.de"
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/646/646094.png"
+                  alt="Mail-icon"
+              /></a>
+            </p>
+          </div>
         </article>
       </section>
     </main>
