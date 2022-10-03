@@ -1,0 +1,67 @@
+.gridcontainer {
+  display: grid;
+  margin: 3vw;
+  gap: 10px;
+  grid-template-columns: repeat(3, 30vw);
+  grid-template-columns: auto;
+  align-content: center;
+}
+
+.fotocontainer {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start: 2;
+}
+
+.greeting {
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  text-align: center;
+}
+
+.dates {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+}
+
+.techstack {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 2;
+}
+
+.aboutme {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.goalss {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 3;
+}
+
+.instagram {
+  grid-row: 5;
+}
+
+.github {
+  grid-row: 5;
+}
+
+.mail {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-end: 3;
+}
+
+@media (max-width: 640px) {
+  .gridcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
