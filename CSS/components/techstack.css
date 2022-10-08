@@ -1,0 +1,20 @@
+.techstack {
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 1.5px;
+}
+
+li img {
+  min-width: 10vw;
+  padding: 3px;
+}
+
+li img:hover {
+  width: 100%;
+  padding: 3px;
+}

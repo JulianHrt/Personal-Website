@@ -4,29 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Julian´s Personal-Website</title>
-    <link rel="stylesheet" href="../CSS/styles.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <script src="/JS/index.js" defer></script>
   </head>
-
   <body>
     <header>
-      <h1 class="headline">Julian Hirt</h1>
+      <h1>Julian Hirt</h1>
       <nav>
         <a href="#aboutme">About me</a>
         <a href="#skills">Techstack & Skills</a>
         <a href="#goals">Goals</a>
         <a href="#contact">Contact</a>
+        <div class="settings__darkmode"><p>Darkmode: </p>
+        <label class="settings__switch"><input type="checkbox" data-js="switch"></input><span class="slider round"></span></label>
+        </div>
       </nav>
     </header>
 
     <main>
-      <section class="profil">
+      <section class="gridcontainer">
         <article class="fotocontainer">
-          <img src="../CSS/images/IMG_6051.jpeg" alt="picture of Julian Hirt" />
-          <p class="zitat">
-            "Try and Error and Learning by Doing are my recipe of success."
-          </p>
+          <img
+            src="/CSS/images/IMG_6051.jpeg"
+            alt="picture of Julian Hirt"
+            class="fotobox"
+          />
         </article>
+
+        <article class="greeting"><h1 data-js="display">Good Morning</h1></article>
 
         <article class="dates">
           <p><span>Name: </span>Julian Hirt</p>
@@ -81,11 +87,9 @@
             </li>
           </ul>
         </article>
-      </section>
 
-      <section class="description">
-        <article id="aboutme">
-          <h2>About me</h2>
+        <article id="aboutme" class="aboutme">
+          <h2>Hi my name is Julian,</h2>
           <p>
             Aloha Guys and welcome to my Personal-Website. Currently i´m
             learning Web Developement. I´m very interested in Techstuff and
@@ -96,46 +100,46 @@
           </p>
         </article>
 
-        <article id="goals">
-          <h2>My Goals</h2>
+        <article id="goals" class="goalss">
+          <h2>Goals</h2>
           <p>
             Become a great Web Developer @neueFische Bootcamp. Learn more and
             more cool Techstuff and Skill-up.
           </p>
         </article>
 
-        <article id="contact">
-          <h2>Contact</h2>
-          <div class="socials">
-            <p>
-              <a href="https://instagram.com/julian.hrt"
-                ><img
-                  src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
-                  alt="instagram-icon"
-              /></a>
-            </p>
-            <p>
-              <a href="https://github.com/JulianHrt"
-                ><img
-                  src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png"
-                  alt="Github-icon"
-              /></a>
-            </p>
-            <p>
-              <a href="mailto:julian.hirt94@web.de"
-                ><img
-                  src="https://cdn-icons-png.flaticon.com/512/646/646094.png"
-                  alt="Mail-icon"
-              /></a>
-            </p>
-          </div>
+        <article class="instagram">
+          <p>
+            <a href="https://instagram.com/julian.hrt"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+                alt="instagram-icon"
+            /></a>
+          </p>
+        </article>
+
+        <article class="github">
+          <p>
+            <a href="https://github.com/JulianHrt"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png"
+                alt="Github-icon"
+            /></a>
+          </p>
+        </article>
+
+        <article class="mail">
+          <p>
+            <a href="mailto:julian.hirt94@web.de"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/646/646094.png"
+                alt="Mail-icon"
+            /></a>
+          </p>
         </article>
       </section>
     </main>
 
-    <footer>
-      <a href="">Datenschutz</a>
-      <a href="">Impressum</a>
-    </footer>
+    <footer></footer>
   </body>
 </html>
