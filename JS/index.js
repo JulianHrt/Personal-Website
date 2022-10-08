@@ -16,8 +16,16 @@ function getGreeting() {
 
 display.textContent = getGreeting();
 
-const togglebutton = document.querySelector('[data-js="switch"]');
+const toggleSwitch = document.querySelector(
+  '.settings__switch input[type="checkbox"]'
+);
 
-toggleButton.addEventListener("change", () => {
-  bodyElement.classList.add(".dark");
-});
+function switchTheme(e) {
+  if (e.target.checked) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else {
+    document.documentElement.setAttribute("data-theme", "light");
+  }
+}
+
+toggleSwitch.addEventListener("change", switchTheme, false);
