@@ -1,7 +1,7 @@
 .gridcontainer {
   display: grid;
   margin: 3vw;
-  gap: 10px;
+  gap: 1.5vw;
   grid-template-columns: repeat(3, 30vw);
   grid-template-columns: auto;
   align-content: center;
@@ -11,51 +11,59 @@
   grid-row-start: 2;
   grid-row-end: 5;
   grid-column-start: 2;
+  box-shadow: var(--shadows);
 }
 
 .greeting {
   grid-column-start: 1;
   grid-column-end: 4;
-
   text-align: center;
+  box-shadow: var(--shadows);
 }
 
 .dates {
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 3;
+  box-shadow: var(--shadows);
 }
 
 .techstack {
   grid-row-start: 5;
   grid-row-end: 6;
   grid-column-start: 2;
+  box-shadow: var(--shadows);
 }
 
 .aboutme {
   grid-column-start: 1;
   grid-row-start: 2;
   grid-row-end: 5;
+  box-shadow: var(--shadows);
 }
 
 .goalss {
   grid-row-start: 4;
   grid-row-end: 5;
   grid-column-start: 3;
+  box-shadow: var(--shadows);
 }
 
 .instagram {
   grid-row: 5;
+  box-shadow: var(--shadows);
 }
 
 .github {
   grid-row: 5;
+  box-shadow: var(--shadows);
 }
 
 .mail {
   grid-row-start: 2;
   grid-column-start: 3;
   grid-row-end: 3;
+  box-shadow: var(--shadows);
 }
 
 @media (max-width: 640px) {
